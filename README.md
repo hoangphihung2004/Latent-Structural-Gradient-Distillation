@@ -80,6 +80,25 @@ Images were collected from agricultural fields in western Odisha using a Nikon D
 
 #### Sample images (rice leaf diseases)
 
-| Bacterial Blight | Blast | Brown Spot | Tungro |
-| --- | --- | --- | --- |
-| ![Bacterial Blight](image/bacterialblight.jpg) | ![Blast](image/blast.jpg) | ![Brown Spot](image/brownsplot.jpg) | ![Tungro](image/tungro.jpg) |
+<table>
+  <tr>
+    <td align="center"><b>Bacterial Blight</b></td>
+    <td align="center"><b>Blast</b></td>
+    <td align="center"><b>Brown Spot</b></td>
+    <td align="center"><b>Tungro</b></td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="image/bacterialblight.jpg" alt="Bacterial Blight" width="180" height="180" style="object-fit: cover;" />
+    </td>
+    <td align="center">
+      <img src="image/blast.jpg" alt="Blast" width="180" height="180" style="object-fit: cover;" />
+    </td>
+    <td align="center">
+      <img src="image/brownsplot.jpg" alt="Brown Spot" width="180" height="180" style="object-fit: cover;" />
+    </td>
+    <td align="center">
+      <img src="image/tungro.jpg" alt="Tungro" width="180" height="180" style="object-fit: cover;" />
+    </td>
+  </tr>
+</table>
