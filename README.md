@@ -1,6 +1,6 @@
 # Latent Structural Gradient Distillation
 
-Codebase has been reorganized into modular components with a class-based training pipeline.
+This repository contains the implementation of the Latent Structural Gradient Distillation (LSGD) method for training compact student models using knowledge distillation from larger teacher models.
 
 ## Project structure
 
