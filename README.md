@@ -37,15 +37,30 @@ This setup reflects practical seed production scenarios with realistic inter-cla
 | Thien Uu-8 | 1284 | 321 | 401 | 2006 |
 | Xi-23 | 2653 | 663 | 829 | 4145 |
 
-#### Sample images (rice seed varieties)
+#### Sample images
 
-| BC-15 | Huong Thom-1 | Nep-87 |
-| --- | --- | --- |
-| ![BC-15](image/BC15.png) | ![Huong Thom-1](image/Huong_Thom.png) | ![Nep-87](image/Nep87.png) |
-
-| Q-5 | Thien Uu-8 | Xi-23 |
-| --- | --- | --- |
-| ![Q-5](image/Q5.png) | ![Thien Uu-8](image/ThienUu.png) | ![Xi-23](image/Xi23.png) |
+<table>
+  <tr>
+    <td align="center"><b>BC-15</b></td>
+    <td align="center"><b>Huong Thom-1</b></td>
+    <td align="center"><b>Nep-87</b></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="image/BC15.png" alt="BC-15" width="170" height="170" style="object-fit: contain; background-color: #fff;" /></td>
+    <td align="center"><img src="image/Huong_Thom.png" alt="Huong Thom-1" width="170" height="170" style="object-fit: contain; background-color: #fff;" /></td>
+    <td align="center"><img src="image/Nep87.png" alt="Nep-87" width="170" height="170" style="object-fit: contain; background-color: #fff;" /></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Q-5</b></td>
+    <td align="center"><b>Thien Uu-8</b></td>
+    <td align="center"><b>Xi-23</b></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="image/Q5.png" alt="Q-5" width="145" height="145" style="object-fit: contain; background-color: #fff;" /></td>
+    <td align="center"><img src="image/ThienUu.png" alt="Thien Uu-8" width="145" height="145" style="object-fit: contain; background-color: #fff;" /></td>
+    <td align="center"><img src="image/Xi23.png" alt="Xi-23" width="145" height="145" style="object-fit: contain; background-color: #fff;" /></td>
+  </tr>
+</table>
 
 ### Papaya leaf disease dataset
 
@@ -58,7 +73,7 @@ The papaya leaf disease dataset contains **2,500 RGB images** across five classe
 
 Images were captured directly from fields using smartphone cameras under natural conditions. Samples were placed on a white background and photographed under multiple viewpoints and illumination conditions. All images were resized to **224 x 224** and split into **64% / 16% / 20%** for train/validation/test.
 
-#### Sample images (papaya leaf classes)
+#### Sample images
 
 | Healthy Leaf | Crushed Leaves | Potash Deficiency |
 | --- | --- | --- |
@@ -78,7 +93,7 @@ The rice leaf disease dataset contains **5,932 images** in four classes (<a href
 
 Images were collected from agricultural fields in western Odisha using a Nikon DSLR-D5600 camera (18-55 mm lens). Disease regions were manually cropped to form samples. The Tungro subset has variable resolution (approximately 209 to 603 pixels for both width and height), while other images were standardized at 300 x 300. Data are split into **64% / 16% / 20%** for train/validation/test.
 
-#### Sample images (rice leaf diseases)
+#### Sample images
 
 <table>
   <tr>
@@ -89,16 +104,16 @@ Images were collected from agricultural fields in western Odisha using a Nikon D
   </tr>
   <tr>
     <td align="center">
-      <img src="image/bacterialblight.jpg" alt="Bacterial Blight" width="180" height="180" style="object-fit: cover;" />
+      <img src="image/bacterialblight.jpg" alt="Bacterial Blight" width="180" height="180" style="object-fit: contain; background-color: #fff;" />
     </td>
     <td align="center">
-      <img src="image/blast.jpg" alt="Blast" width="180" height="180" style="object-fit: cover;" />
+      <img src="image/blast.jpg" alt="Blast" width="180" height="180" style="object-fit: contain; background-color: #fff;" />
     </td>
     <td align="center">
-      <img src="image/brownsplot.jpg" alt="Brown Spot" width="180" height="180" style="object-fit: cover;" />
+      <img src="image/brownsplot.jpg" alt="Brown Spot" width="180" height="180" style="object-fit: contain; background-color: #fff;" />
     </td>
     <td align="center">
-      <img src="image/tungro.jpg" alt="Tungro" width="180" height="180" style="object-fit: cover;" />
+      <img src="image/tungro.jpg" alt="Tungro" width="180" height="180" style="object-fit: contain; background-color: #fff;" />
     </td>
   </tr>
 </table>
