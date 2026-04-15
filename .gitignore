@@ -1,0 +1,13 @@
+# Project-specific large/raw datasets
+RiceSeedFinal/
+
+# Local tooling/IDE metadata
+.qodo/
+.idea/
+
+# Python cache/artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
